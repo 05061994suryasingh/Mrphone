@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/SplashBackground">
+        <RelativeLayout
+            android:id="@+id/rlMenu"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dim_40"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:id="@+id/imgMenu"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:src="@drawable/cross"
+                android:layout_width="@dimen/dim_30"
+                android:layout_height="@dimen/dim_30" />
+            <TextView
+                android:id="@+id/txtTopBar"
+                android:text="Select country"
+                android:layout_toEndOf="@+id/imgMenu"
+                android:layout_marginLeft="@dimen/dim_25"
+                android:textSize="@dimen/dim_25"
+                android:textColor="@color/white"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+</LinearLayout>

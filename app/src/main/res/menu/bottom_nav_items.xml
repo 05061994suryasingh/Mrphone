@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_home"
+        android:title="@string/Home"
+        app:showAsAction="always"
+        android:icon="@drawable/home_icon"
+        />
+    <item
+        android:id="@+id/menu_latest"
+        android:title="@string/Latest"
+        app:showAsAction="always"
+        android:icon="@drawable/new_releases_selected"
+        />
+
+    <item
+        android:id="@+id/menu_TopCharts"
+        android:title="@string/Top_Charts"
+        app:showAsAction="always"
+        android:icon="@drawable/stories_selected" />
+    <item
+        android:id="@+id/menu_feeds"
+        android:title="@string/Feeds"
+        app:showAsAction="always"
+        android:icon="@drawable/icr_feeds"
+        />
+
+    <item
+        android:id="@+id/menu_events"
+        android:title="@string/events"
+        app:showAsAction="always"
+        android:icon="@drawable/events_selected" />
+</menu>

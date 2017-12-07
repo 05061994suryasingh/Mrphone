@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:checked="true"
+            android:title="HOME"/>
+        <item
+            android:id="@+id/nav_brands"
+            android:icon="@drawable/brands"
+            android:title="BRANDS"/>
+
+            <item
+                android:id="@+id/nav_phone"
+                android:icon="@drawable/phone"
+                android:title="PHONE FINDER"/>
+            <item
+                android:id="@+id/nav_video"
+                android:icon="@drawable/icr_youtube"
+                android:title="VIDEOS"/>
+            <item
+                android:id="@+id/nav_rate_us"
+                android:icon="@drawable/rate_us"
+                android:title="RATE US"/>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share"
+                android:title="SHARE"/>
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/contact"
+                android:title="CONTACT US"/>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings"
+            android:title="SETTINGS"/>
+    </group>
+</menu>

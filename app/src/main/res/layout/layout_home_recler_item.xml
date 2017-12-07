@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view_home_recycler_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="@dimen/md_keylines"
+    android:layout_marginLeft="@dimen/md_keylines"
+    android:layout_marginRight="@dimen/md_keylines"
+    android:foreground="?attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/card_image_home_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_image_height"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/a" />
+        <TextView
+            android:id="@+id/card_txt_sitename"
+            android:layout_marginTop="@dimen/dim_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_image_home_recyclerview"
+            android:layout_marginLeft="@dimen/md_keylines"
+            android:text="google.com"
+            android:textColor="@color/dark_grey" />
+        <TextView
+            android:id="@+id/card_txt_date"
+            android:layout_marginTop="@dimen/dim_5"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_image_home_recyclerview"
+            android:layout_marginLeft="@dimen/md_keylines"
+            android:text="2017-08-29"
+            android:textColor="@color/dark_grey"/>
+        <TextView
+            android:id="@+id/card_text_home_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_txt_sitename"
+            android:layout_marginLeft="@dimen/md_keylines"
+            android:layout_marginTop="@dimen/md_keylines"
+            android:layout_marginBottom="@dimen/md_keylines"
+            android:layout_marginRight="@dimen/md_keylines"
+            tools:text="@string/item_desc"
+            android:ellipsize="end"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/article_subheading" />
+        <TextView
+            android:id="@+id/card_txt_modelname"
+            android:layout_marginTop="@dimen/dim_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_text_home_recyclerview"
+            android:layout_marginLeft="@dimen/md_keylines"
+            android:text="moto g5 plus"
+            android:textColor="@color/dark_grey" />
+        <TextView
+            android:id="@+id/card_txt_user_view"
+            android:layout_marginTop="@dimen/dim_5"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dim_5"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_text_home_recyclerview"
+            android:layout_marginLeft="@dimen/md_keylines"
+            android:text="99 views"
+            android:textColor="@color/dark_grey">
+        </TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_below="@+id/card_txt_modelname"
+            android:layout_marginTop="@dimen/dim_5"
+            android:id="@+id/view"
+            android:background="@color/gray"
+            android:layout_marginLeft="@dimen/dim_5"
+            android:layout_marginRight="@dimen/dim_5"
+            android:layout_height="@dimen/dim_1"/>
+        <ImageButton
+            android:id="@+id/imgbtn_like"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icr_like"
+            android:layout_below="@+id/view"
+            android:layout_alignParentLeft="true"
+            style="?android:attr/borderlessButtonStyle"
+            android:tint="@color/button_grey" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/cards_button_height"
+            android:layout_below="@+id/view"
+            android:layout_toEndOf="@+id/imgbtn_like"
+            android:text="5"
+            android:gravity="center"
+            android:id="@+id/txt_Likecount"/>
+        <ImageButton
+            android:id="@+id/imgbtn_chat"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icr_comment"
+            android:layout_below="@+id/view"
+            android:layout_toEndOf="@+id/txt_Likecount"
+            style="?android:attr/borderlessButtonStyle"
+            android:tint="@color/button_grey" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/cards_button_height"
+            android:layout_below="@+id/view"
+            android:layout_toEndOf="@+id/imgbtn_chat"
+            android:text="5"
+            android:gravity="center"
+            android:id="@+id/txt_chatcount"/>
+        <ImageButton
+            android:id="@+id/share_button_home_recyclerview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icr_share"
+            android:layout_below="@+id/view"
+            android:layout_alignParentRight="true"
+            style="?android:attr/borderlessButtonStyle"
+            android:tint="@color/button_grey" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

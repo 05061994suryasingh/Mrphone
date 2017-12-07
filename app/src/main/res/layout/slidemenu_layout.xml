@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:background="@color/SplashBackground"
+        android:visibility="visible"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/img_UserIcon"
+            android:layout_width="@dimen/dim_100"
+            android:layout_height="@dimen/dim_100"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_profile"
+            android:layout_marginTop="@dimen/dim_20"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:text="@string/Login"
+            android:layout_marginRight="@dimen/dim_30"
+            android:layout_marginLeft="@dimen/dim_30"
+            android:background="@android:color/white"
+            android:textColor="@color/SplashBackground"
+            android:layout_marginTop="@dimen/dim_10"
+            android:layout_marginBottom="15dp"
+            android:layout_below="@+id/img_UserIcon"
+            android:textSize="@dimen/large_text_size"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:itemTextColor="@color/gray"
+        app:itemBackground="@drawable/nav_item_drawable"
+        app:menu="@menu/menu_drawer" />
+    <!--<ListView-->
+        <!--android:id="@+id/drawerListView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_below="@+id/layout_header"-->
+        <!--android:backgroundd="@color/white"-->
+        <!--android:choiceMode="singleChoice"-->
+        <!--android:drawSelectorOnTop="true"-->
+        <!--android:listSelector="@android:drawable/list_selector_background"/>-->
+</LinearLayout>

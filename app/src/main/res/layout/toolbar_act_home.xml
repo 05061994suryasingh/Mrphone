@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:minHeight="?attr/actionBarSize"
+    android:background="@color/SplashBackground">
+        <RelativeLayout
+            android:id="@+id/rlMenu"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dim_40"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:id="@+id/imgMenu"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:src="@drawable/menu_icon"
+                android:layout_width="@dimen/dim_30"
+                android:layout_height="@dimen/dim_30" />
+            <TextView
+                android:id="@+id/txtTopBar"
+                android:text="@string/home"
+                android:layout_toEndOf="@+id/imgMenu"
+                android:layout_marginLeft="@dimen/dim_25"
+                android:textSize="@dimen/dim_25"
+                android:textColor="@color/white"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/imgNotification"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icr_notification"
+                android:layout_toLeftOf="@+id/imgAccount"
+                android:layout_marginRight="@dimen/dim_20"
+                android:layout_width="@dimen/dim_25"
+                android:layout_height="@dimen/dim_25" />
+            <ImageView
+                android:id="@+id/imgAccount"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icr_profile"
+                android:layout_marginRight="@dimen/dim_20"
+                android:layout_alignParentRight="true"
+                android:layout_width="@dimen/dim_25"
+                android:layout_height="@dimen/dim_25" />
+        </RelativeLayout>
+</android.support.v7.widget.Toolbar>

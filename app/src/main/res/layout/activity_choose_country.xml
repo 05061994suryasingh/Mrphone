@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_choose_country"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.chromeinfotech.mrphone.view.ui.activity.country.ChooseCountryActivity">
+    <include layout="@layout/choose_country_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar_select_country">
+
+    </include>
+    <ListView
+    android:layout_below="@+id/toolbar_select_country"
+    android:layout_width="match_parent"
+    android:id="@+id/list_country"
+    android:divider="@android:color/transparent"
+    android:dividerHeight="0dp"
+    android:layout_height="wrap_content">
+   </ListView>
+</RelativeLayout>

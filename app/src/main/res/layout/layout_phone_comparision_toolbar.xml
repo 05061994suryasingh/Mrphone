@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/SplashBackground">
+        <LinearLayout
+            android:id="@+id/rlToolbarPhoneFinder"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgMenuPhonefinder"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:src="@drawable/ic_back_arrow"
+                android:layout_width="30dp"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/edtenterphonename"
+                android:layout_toEndOf="@+id/imgMenuPhonefinder"
+                android:layout_marginLeft="@dimen/dim_25"
+                android:layout_marginRight="@dimen/dim_10"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:backgroundTint="@android:color/transparent"
+                android:hint="SamsunG s8 infinity"
+                android:layout_centerInParent="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:id="@+id/imgClear"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dim_20"
+                android:src="@drawable/share"
+                android:textColor="@color/white"
+                android:background="@android:color/transparent"
+                android:layout_width="30dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>

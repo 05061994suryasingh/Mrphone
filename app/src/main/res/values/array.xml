@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="places">
+        <item>nokia 5</item>
+        <item>samsung j5</item>
+        <item>vivo v5 s</item>
+        <item>lenovo k5 note</item>
+        <item>Redmi note 4</item>
+        <item>moto g5 s Plus</item>
+        <item>lenovo k5 note</item>
+        <item>Redmi note 4</item>
+        <item>moto g5 s Plus</item>
+        <item>Redmi note 4</item>
+        <item>moto g5 s Plus</item>
+    </string-array>
+    <string-array name="mobile">
+        <item>nokia 5</item>
+        <item>samsung j5</item>
+        <item>vivo v5 s</item>
+        <item>lenovo k5 note</item>
+        <item>Redmi note 4</item>
+        <item>moto g5 s Plus</item>
+        <item>lenovo k5 note</item>
+        <item>Redmi note 4</item>
+        <item>moto g5 s Plus</item>
+        <item>nokia 5</item>
+    </string-array>
+    <array name="mobile_namewith_picture">
+        <item>@drawable/phone10</item>
+        <item>@drawable/phone1</item>
+        <item>@drawable/phone2</item>
+        <item>@drawable/phone3</item>
+        <item>@drawable/phone4</item>
+        <item>@drawable/phone5</item>
+        <item>@drawable/phone7</item>
+        <item>@drawable/phone8</item>
+        <item>@drawable/phone9</item>
+        <item>@drawable/phone5</item>
+        <item>@drawable/phone10</item>
+        <item>@drawable/phone1</item>
+        <item>@drawable/phone2</item>
+        <item>@drawable/phone3</item>
+        <item>@drawable/phone4</item>
+        <item>@drawable/phone5</item>
+        <item>@drawable/phone7</item>
+        <item>@drawable/phone8</item>
+        <item>@drawable/phone9</item>
+        <item>@drawable/phone5</item>
+        <item>@drawable/phone10</item>
+        <item>@drawable/phone1</item>
+        <item>@drawable/phone2</item>
+        <item>@drawable/phone3</item>
+        <item>@drawable/phone4</item>
+        <item>@drawable/phone5</item>
+        <item>@drawable/phone7</item>
+        <item>@drawable/phone8</item>
+        <item>@drawable/phone9</item>
+        <item>@drawable/phone5</item>
+    </array>
+    <string-array name="mobile_name">
+        <item>nokia 5</item>
+        <item>samsung j5</item>
+        <item>vivo v5 s</item>
+        <item>lenovo k5 note</item>
+        <item>Redmi note 4</item>
+        <item>moto g5 s Plus</item>
+        <item>lenovo k5 note</item>
+        <item>Redmi note 4</item>
+        <item>moto g5 s Plus</item>
+        <item>nokia 5</item>
+        <item>nokia 5</item>
+        <item>samsung j5</item>
+        <item>vivo v5 s</item>
+        <item>lenovo k5 note</item>
+        <item>Redmi note 4</item>
+        <item>moto g5 s Plus</item>
+        <item>lenovo k5 note</item>
+        <item>Redmi note 4</item>
+        <item>moto g5 s Plus</item>
+        <item>nokia 5</item>
+        <item>nokia 5</item>
+        <item>samsung j5</item>
+        <item>vivo v5 s</item>
+        <item>lenovo k5 note</item>
+        <item>Redmi note 4</item>
+        <item>moto g5 s Plus</item>
+        <item>lenovo k5 note</item>
+        <item>Redmi note 4</item>
+        <item>moto g5 s Plus</item>
+        <item>nokia 5</item>
+    </string-array>
+    <string-array name="mobile_discription">
+        <item>The Nokia 5 smartphone was launched in February 2017. The phone comes with a 5.20-inch touchscreen display with a resolution of 720 pixels by 1280 pixel
+        </item>
+        <item>The Samsung Galaxy J5 is powered by 1.2GHz quad-core Qualcomm Snapdragon 410 processor and it comes with 1.5GB of RAM. The phone packs 8GB of internal storage that can be expanded up to 128GB via a microSD card</item>
+        <item>The Vivo V5 is powered by 1.5GHz octa-core MediaTek MT6750 processor and it comes with 4GB of RAM</item>
+        <item>The Lenovo K5 Note is powered by 1.8GHz octa-core MediaTek Helio P10 processor and it comes with 2GB of RAM. </item>
+        <item>The phone comes with a 4.70-inch touchscreen display with a resolution of 720 pixels by 1280 pixels at a PPI of 312 pixels per inch</item>
+    <item>TNokia 5 smartphone was launched in February 2017. The phone comes with a 5.20-inch touchscreen display with a resolution of 720 pixels by 1280 pixel
+        </item>
+        <item>The Samsung Galaxy J5 is powered by 1.2GHz quad-core Qualcomm Snapdragon 410 processor and it comes with 1.5GB of RAM. The phone packs 8GB of internal storage that can be expanded up to 128GB via a microSD card</item>
+        <item>The Vivo V5 is powered by 1.5GHz octa-core MediaTek MT6750 processor and it comes with 4GB of RAM</item>
+        <item>The Lenovo K5 Note is powered by 1.8GHz octa-core MediaTek Helio P10 processor and it comes with 2GB of RAM. </item>
+        <item>The phone comes with a 4.70-inch touchscreen display with a resolution of 720 pixels by 1280 pixels at a PPI of 312 pixels per inch</item>
+
+    </string-array>
+    <string-array name="place_desc">
+         <item>Nokia 5 smartphone was launched in February 2017. The phone comes with a 5.20-inch touchscreen display with a resolution of 720 pixels by 1280 pixel
+        </item>
+        <item>The Samsung Galaxy J5 is powered by 1.2GHz quad-core Qualcomm Snapdragon 410 processor and it comes with 1.5GB of RAM. The phone packs 8GB of internal storage that can be expanded up to 128GB via a microSD card</item>
+        <item>The Vivo V5 is powered by 1.5GHz octa-core MediaTek MT6750 processor and it comes with 4GB of RAM</item>
+        <item>The Lenovo K5 Note is powered by 1.8GHz octa-core MediaTek Helio P10 processor and it comes with 2GB of RAM. </item>
+        <item>The phone comes with a 4.70-inch touchscreen display with a resolution of 720 pixels by 1280 pixels at a PPI of 312 pixels per inch</item>
+    <item>Nokia 5 smartphone was launched in February 2017. The phone comes with a 5.20-inch touchscreen display with a resolution of 720 pixels by 1280 pixel
+        </item>
+    </string-array>
+    <string-array name="place_details">
+        <item>Nokia 5 smartphone was launched in February 2017.
+            The phone comes with a 5.20-inch touchscreen display
+            with a resolution of 720 pixels by 1280 pixels.
+            Nokia 5 price in India starts from Rs. 14,199.
+            The Nokia 5 is powered by octa-core Qualcomm Snapdragon
+            430 processor and it comes with 2GB of RAM.
+        </item>
+        <item>Samsung Galaxy S8. Samsung Galaxy S8 smartphone was launched in March 2017.
+              The Samsung Galaxy S8 is powered by 1.9GHz octa-core Samsung Exynos 8895 processor
+              and it comes with 4GB of RAM. The phone packs 64GB of internal storage that can be
+              expanded up to 256GB via a microSD card.
+        </item>
+        <item>The Vivo V5 is powered by 1.5GHz octa-core MediaTek MT6750 processor and it comes with
+              4GB of RAM. The phone packs 32GB of internal storage that can be expanded up to 128GB via
+              a microSD card.The Vivo V5 runs Android 6.0.1 and is powered by a 3000mAh non removable
+              battery.
+        </item>
+        <item>Lenovo K5 Note smartphone was launched in January 2016.The Lenovo K5 Note is powered by 1.
+              8GHz octa-core MediaTek Helio P10 processor and it comes with 2GB of RAM. The phone packs
+              16GB of internal storage that can be expanded up to 128GB via a microSD card.
+        </item>
+        <item>Xiaomi Redmi 4 smartphone was launched in November 2016.The Xiaomi Redmi 4 is powered by 1.
+              4GHz octa-core Qualcomm Snapdragon 435 processor and it comes with 3GB of RAM. The phone packs
+              32GB of internal storage that can be expanded up to 128GB via a micro SD card.
+        </item>
+        <item>The Samsung Galaxy Note 4 is the fourth instalment in the Note phablet series.
+              It brings a much sharper, 5.7-inch 1440 x 2560-pixel (Quad HD) display, a powerful
+              Exynos 5433 8-core system chip running at up to 1.9GHz, 3GB of RAM and a plentiful
+              32GB of internal storage in the basic model.
+        </item>
+    </string-array>
+    <string-array name="place_locations">
+        <item>Sector 63 noida ghaziabad Uttar Pradesh</item>
+        <item>Sector 64 noida ghaziabad Uttar Pradesh</item>
+        <item>Sector 65 noida ghaziabad Uttar Pradesh</item>
+        <item>Sector 66 noida ghaziabad Uttar Pradesh</item>
+        <item>Sector 67 noida ghaziabad Uttar Pradesh</item>
+        <item>Sector 68 noida ghaziabad Uttar Pradesh</item>
+    </string-array>
+    <array name="place_avator">
+        <item>@drawable/samsung1</item>
+        <item>@drawable/samsung2</item>
+        <item>@drawable/samsung3</item>
+        <item>@drawable/samsung4</item>
+        <item>@drawable/samsung9</item>
+        <item>@drawable/samsung10</item>
+    </array>
+    <array name="places_picture">
+        <item>@drawable/phone</item>
+        <item>@drawable/phone1</item>
+        <item>@drawable/phone2</item>
+        <item>@drawable/phone3</item>
+        <item>@drawable/phone4</item>
+        <item>@drawable/phone5</item>
+    </array>
+    <array name="mobile_picture">
+        <item>@drawable/phone10</item>
+        <item>@drawable/phone1</item>
+        <item>@drawable/phone2</item>
+        <item>@drawable/phone3</item>
+        <item>@drawable/phone4</item>
+        <item>@drawable/phone5</item>
+        <item>@drawable/phone7</item>
+        <item>@drawable/phone8</item>
+        <item>@drawable/phone9</item>
+        <item>@drawable/phone5</item>
+    </array>
+    <array name="phoneFinderImage">
+        <item>@drawable/ic_set_1_brands</item>
+        <item>@drawable/ic_set_1_operating_system</item>
+        <item>@drawable/ic_set_1_front_camera</item>
+        <item>@drawable/ic_set_1_rear_camera</item>
+        <item>@drawable/ic_set_1_ram</item>
+        <item>@drawable/ic_set_1_connector</item>
+        <item>@drawable/ic_set_1_fingerprint</item>
+        <item>@drawable/ic_set_1_cpu</item>
+        <item>@drawable/ic_set_1_resolution</item>
+        <item>@drawable/ic_set_1_no_of_slots</item>
+        <item>@drawable/ic_set_1_chipset</item>
+        <item>@drawable/ic_set_1_battery</item>
+        <item>@drawable/ic_set_1_screen_size</item>
+        <item>@drawable/ic_set_1_phone_type</item>
+    </array>
+    <string-array name="phoneFinderArray">
+        <item>Brands</item>
+        <item>Opearating System</item>
+        <item>Front Camera</item>
+        <item>Rear Camera</item>
+        <item>Ram</item>
+        <item>connector</item>
+        <item>Fingerprint</item>
+        <item>CPU</item>
+        <item>Resolution</item>
+        <item>No of Slots</item>
+        <item>chipset</item>
+        <item>Battery</item>
+        <item>Screen Size</item>
+        <item>Phone Type</item>
+    </string-array>
+    <string-array name="phoneBrandname">
+        <item>SAMSUNG</item>
+        <item>APPLE</item>
+        <item>NOKIA</item>
+        <item>SONY</item>
+        <item>LG</item>
+        <item>HTC</item>
+        <item>MOTOROLA</item>
+        <item>HUAWEI</item>
+        <item>MICROSOFT</item>
+        <item>LENOVO</item>
+        <item>XIAOMI</item>
+        <item>GOOGLE</item>
+        <item>ACER</item>
+        <item>ASUS</item>
+        <item>OPPO</item>
+        <item>ONEPLUS</item>
+        <item>MEIZU</item>
+        <item>BLACKBERRY</item>
+        <item>ALCATEL</item>
+        <item>ZTE</item>
+        <item>TOSHIBA</item>
+        <item>VODAFONE</item>
+        <item>GIGABYTE</item>
+        <item>XOLO</item>
+        <item>LAVA</item>
+        <item>MICROMAX</item>
+        <item>GIONEE</item>
+        <item>VIVO</item>
+        <item>LEECO</item>
+        <item>PANASONIC</item>
+        <item>HP</item>
+    </string-array>
+    <string-array name="OperatingSyatem">
+        <item>Android 2.3. Gingerbread.</item>
+        <item>Android 3.0. Honeycomb.</item>
+        <item>Android 4.0. Ice Cream Sandwich.</item>
+        <item>Android 4.1. Jelly Bean.</item>
+        <item>Android 4.4. KitKat.</item>
+        <item>Android 5.0  Lollipop</item>
+        <item>Android 6.0  Marshmallow</item>
+        <item>Android 7.0  Nougat</item>
+        <item>Android 7.1  Nougat</item>
+        <item>Android 8.1  Oreo</item>
+    </string-array>
+    <string-array name="frontCamera">
+        <item>less then 2 MP</item>
+        <item>2-5 MP</item>
+        <item>above 5 MP</item>
+
+    </string-array>
+    <string-array name="rearCamera">
+        <item>less then 5 MP</item>
+        <item>5-8 MP</item>
+        <item>8-12 MP</item>
+        <item>above 12 MP</item>
+    </string-array>
+    <string-array name="ram">
+        <item>less then 1 GB</item>
+        <item>above 1 GB</item>
+        <item>above 2 GB</item>
+        <item>above 3 GB</item>
+        <item>above 4 GB</item>
+        <item>above 5 GB</item>
+        <item>above 6 GB</item>
+        <item>above 7 GB</item>
+        <item>above 8 GB</item>
+    </string-array>
+    <string-array name="connector">
+        <item>USB Type-C</item>
+    </string-array>
+    <string-array name="fingerprint">
+        <item>Yes</item>
+    </string-array>
+    <string-array name="cpu">
+        <item>Single core</item>
+        <item>Dual Core</item>
+        <item>Tri Core</item>
+        <item>Quad Core</item>
+        <item>Hexa Core</item>
+        <item>Octa Core</item>
+        <item>Deka Core</item>
+    </string-array>
+    <string-array name="resolution">
+        <item>HD</item>
+        <item>FHD</item>
+        <item>2k</item>
+        <item>4k</item>
+    </string-array>
+    <string-array name="no_of_slots">
+        <item>Single eSim</item>
+        <item>Dual Sim</item>
+        <item>Triple Sim</item>
+    </string-array>
+    <string-array name="chipset">
+        <item>MediaTek</item>
+        <item>Qualcom</item>
+        <item>NVIDIA</item>
+        <item>OMAP</item>
+        <item>Exynos</item>
+        <item>Kirin</item>
+        <item>Xiaolong</item>
+        <item>Broadcon</item>
+        <item>Spreadtrum</item>
+        <item>Marvel</item>
+        <item>Apple</item>
+    </string-array>
+    <string-array name="battery">
+        <item>below 1500 mAh</item>
+        <item>2000 - 2999 mAh</item>
+        <item>3000 - 3999 mAh</item>
+        <item>4000 - 4999 mAh</item>
+        <item>Above 5000 mAh</item>
+
+    </string-array>
+    <string-array name="screensize">
+        <item>4 - 4.4 inch</item>
+        <item>4.5 - 4.9 inch</item>
+        <item>5.5 - 5.6 inch</item>
+        <item>6 inch above</item>
+        <item>Less than 3 inch</item>
+        <item>3 - 3.4 inch</item>
+        <item>3.5 - 3.9 inch</item>
+        <item>5 - 5.1 inch</item>
+        <item>5.2 - 5.4 inch</item>
+        <item>5.7 - 5.9 inch</item>
+    </string-array>
+    <string-array name="phoneType">
+        <item>tablet</item>
+        <item>phone</item>
+        <item>feature phone</item>
+        <item>Basic phone</item>
+        <item>slider phone</item>
+    </string-array>
+</resources>
